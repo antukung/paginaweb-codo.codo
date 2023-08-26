@@ -1,0 +1,10 @@
+#contenedor {
+    place-content: flex-end;
+    display: flex;
+    background-color: rgb(103, 151, 194);
+    
+}
+
+#imagen-general{
+    width: 90em;
+}
