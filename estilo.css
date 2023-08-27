@@ -8,3 +8,8 @@
 #imagen-general{
     width: 90em;
 }
+
+.boton{
+    background-color: rgb(58, 58, 180);
+    border-radius: 0.5em;
+}
