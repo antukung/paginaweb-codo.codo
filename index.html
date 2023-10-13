@@ -12,15 +12,39 @@
   <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
-    
-<header id="grid-container">
+
+  <!-- Header --> 
+
+  <header>
+    <div class="contenedor">
+        <nav class="nav_checkbox">
+            <a href="#" class="logo"><h2>Libros Argentina</h2></a>
+            <input type="checkbox" id="tab-nav" class="tab-nav">
+            <label for="tab-nav" class="label">
+                <div id="burg1" class="burger"></div>
+                <div id="burg0" class="burger"></div>
+                <div id="burg2" class="burger"></div>
+            </label>
+            <ul class="content_nav">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Reseñas</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<section id="grid-container">
     <img src="./imagenes/libros-fondo-azul_23-2147615008.jpg" alt="libro">
     <div class="texto">
         <h1>Libros <br>Argentina</h1>
 </div>
-</header>
+</section>
 
-
+ <!-- Reseña --> 
 <section id="Reseña">
   <div class="container">
     <div class="card">
@@ -32,6 +56,8 @@
       </button>
     </div> 
 </section>
+
+ <!-- Card--> 
 
 <section id="tarjeta">
   <div class="card-container">
@@ -47,6 +73,7 @@
   </div>
 </section>
 
+ <!-- Seccion Actualidad -->
 
 <h1>Actualidad Literaria</h1>
 <section id="actualidad">
