@@ -428,9 +428,114 @@ margin-left: 25px;
   }
 }
 
+.imagenDelLibro {
+    max-width: 80px;
+    max-height: 100px;
+    margin: 0 auto;
+}
+
+.nombreDelLibro {
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+.libro {
+    background-color: #4fc7ff;
+    height: 12em;
+    width: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    transition: transform 0.2s;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+.container img {
+  max-width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.container h2 {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+#imagen-perfil{
+  height: 10em;
+  width: 10em;
+}
 
 
+.form {
+  max-inline-size: 550px;
+  margin: auto;
+}
 
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  padding-inline-start: .5em;
+}
+
+.form label span {
+  color: #DA1414;
+}
+
+.form input,
+.form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1rem;
+  padding: .8em;
+  border-radius: .5em;
+  border: 1px solid #858C94;
+}
+
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
+}
+
+input::-webkit-input-placeholder {
+  color: #0F0A0A88;
+}
+
+.contact {
+  margin-block-end: 5em;
+}
+.u-wrapper {
+  max-inline-size: 1232px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
 
   /* card
   

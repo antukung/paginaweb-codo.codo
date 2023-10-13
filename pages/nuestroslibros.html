@@ -36,31 +36,21 @@
     </div>
 </header>
 
-
 <section id="grid-container">
     <img src="../imagenes/libros-fondo-azul_23-2147615008.jpg" alt="libro">
     <div class="texto">
         <h1>Libros <br>Argentina</h1>
 </div>
 </section>
-<section class="contact">
-  <div class="u-wrapper" id="formulario">
-    <div class="contact-content" id="formulario-hijo">
-
-      <form id="form" class="form" action="https://formspree.io/f/xzblroke" method="POST">
-        <h3 class="tag"><span>Contactanos</span></h3>
-        <label for="name">Nombre Completo <span>*</span></label>
-        <input name="name" required type="text" id="name" placeholder="nombre y apellido">
-        <label for="email">Correo electrónico <span>*</span></label>
-        <input name="email" type="text" id="email" required placeholder="tuemail@mail">
-        <label for="message">Mensaje</label>
-        <textarea id="message" name="message" id="" cols="30" rows="8"></textarea>
-        <button type="submit" class="btn primary full">enviar mensaje</button>
-      </form>
-      <a href="mailto:fersum414@gmail.com" id="apariencia"></a>
+    <div id="filtrador">
+        <label>Nombre: </label>
+        <input id="input-nombre" type="text" onkeyup="buscadorDeNombre()">
     </div>
-  </div>
-</section>
-      <script src="/javascript/formulario.js"></script>
+    <hr>
+    <div class="libros-argentina">
+
+    </div>
+    <script src="../javascript/app.js"></script>
+    <script src="../javascript/constructorlibros.js"></script>
 </body>
 </html>
