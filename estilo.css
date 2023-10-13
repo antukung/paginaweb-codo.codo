@@ -203,3 +203,29 @@ input::-webkit-input-placeholder {
         text-align: center;
     }
 }
+
+.imagenDelLibro {
+    max-width: 80px;
+    max-height: 100px;
+    margin: 0 auto;
+}
+
+.nombreDelLibro {
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+.libro {
+    background-color: #4fc7ff;
+    height: 12em;
+    width: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    transition: transform 0.2s;
+}
