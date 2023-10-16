@@ -59,7 +59,7 @@
 .burger{
 
     width: 35px;
-    height: 5px;
+    height: 3px;
     background-color: #fff;
     margin-top: 5px;
     transition:all 0.5s ease;
@@ -617,16 +617,17 @@ justify-content: center;
 
  .title_header {
 width: 100%;
-height: 60vh;
+height: 40vh;
 flex: 1 0 auto;
 display: flex;
 align-items: center;
 justify-content: center;
+background-color: rgb(1, 84, 209);
 
 }
 
 .title_header h1 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 10vw;
 font-weight: 100;
 }
@@ -635,7 +636,7 @@ font-weight: 100;
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 35px;
+  gap: 50px;
   max-width: 1300px;
   margin: 50px auto;
   padding: 0 10px;
@@ -650,7 +651,7 @@ font-weight: 100;
 
 .card__img img {
   width: 100%;
-  height: 60vh;
+  height: 65vh;
 }
 
 .card__title {
