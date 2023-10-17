@@ -178,6 +178,163 @@ const databaselibrosJSON= [
     "imagen":"../img/Libro25.png",
     "enlace":"https://mega.nz/file/clZXEbgS#vE2hWJ2TYvYBxPQxOfwO6VcC_XmNLpI_wj6ShpPSUmA"
   }
-  
+  ,
+  { 
+    "_id": 27,
+    "nombre":"La Condesa Sangrienta",
+    "imagen":"../img/Libro27.png",
+    "enlace":"https://mega.nz/file/hpZGBTyY#Jiz4DqIJcVAI-68N5rzWr5BVBwSdVj4fMD8RRGm6ExY"
+  }
+  ,
+  { 
+    "_id": 28,
+    "nombre":"Planetas Morales",
+    "imagen":"../img/Libro28.png",
+    "enlace":"https://mega.nz/file/RpoTkDJR#P0hSM66yBhkR1yy0f7dH7yQ6EKNcxXi2OPYclTLNNFY"
+  }
+  ,
+  { 
+    "_id": 29,
+    "nombre":"La Palabra Dibujada",
+    "imagen":"../img/Libro29.png",
+    "enlace":"https://mega.nz/file/4t4F0BhY#e-NEIbc3Opkx5BgckX2xh4xiCUIn-dHZaomnRyV05dw"
+  }
+  ,
+  { 
+    "_id": 30,
+    "nombre":"Prosas Apatriadas Aumentadas",
+    "imagen":"../img/Libro30.png",
+    "enlace":"https://mega.nz/file/58YTmCIa#7qCvqh4-49fL363VaKqCU-9SvTXIOvQnEeVELFIZCnk"
+  }
+  ,
+  { 
+    "_id": 31,
+    "nombre":"Ramon Cote Poemas",
+    "imagen":"../img/Libro31.png",
+    "enlace":"https://mega.nz/file/80J2AbSB#Z4ePwrDnhndMh539qo-a5zxc3vVC7UIbwWbTyn9gkOI"
+  }
+  ,
+  { 
+    "_id": 32,
+    "nombre":"Sociedad dek Espectaculo",
+    "imagen":"../img/Libro32.png",
+    "enlace":"https://mega.nz/file/ppIFTCKC#54KQoEDQ52PMG6nl76ZZpUvbh1hVWbV1388kr5TXG9E"
+  }
+  /*
+  ,
+  { 
+    "_id": 33,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 34,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 35,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 36,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 37,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 38,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 39,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 40,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 33,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 34,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 35,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 36,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 37,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 38,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 39,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
+  ,
+  { 
+    "_id": 40,
+    "nombre":"",
+    "imagen":"../img/Libro25.png",
+    "enlace":""
+  }
 
+
+  
+*/
 ]

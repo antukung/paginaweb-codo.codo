@@ -674,7 +674,32 @@ font-weight: 100;
   margin: 15px auto 20px;
 }
 
+#explicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20em;
+  height: 10em;
+  background: linear-gradient(90deg, #75AADB 30%, #FFFFFF 30%, #FFFFFF 70%, #75AADB 70%);
+  position: relative;
+}
 
+/* Estilos para el texto */
+#click-descarga {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
 
  
 	
