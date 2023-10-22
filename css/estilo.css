@@ -512,6 +512,20 @@ input::-webkit-input-placeholder {
   margin: 0 auto;
   padding: 0 1em;
 }
+.btn_primary_full {
+  position: relative;
+  left: 140px;
+  width: 75px;
+  height: 38px;
+  background-color: rgb(1, 84, 209);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  mix-blend-mode: hard-light;
+  margin: 20px 0;
+}
 
   /* Footer */
 
