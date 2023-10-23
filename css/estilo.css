@@ -389,46 +389,27 @@ button {
 }
 
 
-.imagenDelLibro {
-  max-width: 100px;
-  max-height: 140px;
-  display: block;
+.libros-argentina {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
 }
 
-/* Estilos para el contenedor del libro */
 .libro {
-  background-color: #4fc7ff;
-  height: 16em;
-  width: 10em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  transition: transform 0.2s;
-  position: relative; /* Importante: Establece la posición como relativa */
 }
 
-/* Estilos para la imagen dentro del contenedor */
-.libro .imagenDelLibro {
-  margin-bottom: -40px; /* Agrega un margen inferior a la imagen */
-}
-
-/* Estilos para el nombre del libro */
 .nombreDelLibro {
-  color: #fff;
-  margin: 0; /* Elimina el margen superior e inferior para que el nombre esté más cerca de la imagen */
-  position: absolute; /* Establece la posición como absoluta */
-  top: 0; /* Lo coloca en la parte superior del contenedor */
-  left: 0; /* Lo coloca en la esquina superior izquierda del contenedor */
-  width: 100%; /* Ocupa todo el ancho del contenedor */
-  background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semi-transparente para el nombre */
-  padding: 5px; /* Agrega un espaciado interno para que el nombre sea legible */
-  box-sizing: border-box; /* Incluye el relleno en el ancho total del nombre */
+  font-weight: bold;
+  margin: 10px 0;
 }
+
+.imagenDelLibro {
+  max-width: 100%;
+}
+
 
 .nosotros {
   display: flex;
