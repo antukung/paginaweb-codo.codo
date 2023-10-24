@@ -1,5 +1,6 @@
 const divLibros = document.querySelector(".libros-argentina");
 const inputLibros = document.querySelector("#input-nombre");
+const divLibrosOpenLibros = document.querySelector(".libros-open-libra");
 
 function crearLibros(lista) {
   divLibros.innerHTML = ""; // Limpiar resultados anteriores
@@ -41,3 +42,30 @@ function buscadorDeNombre() {
     crearLibros(databaselibrosJSON);
   }
 }
+
+async function crearLibrosOpenLibra() {
+  try {
+    const respuesta = await fetch("https://www.abibliadigital.com.br/api/verses/nvi/sl/23");
+    const respuestaJSON = await respuesta.json();
+
+    if (respuestaJSON.length > 0) {
+      const nombresLibros = respuestaJSON.map(libro => libro.title);
+      divLibrosOpenLibros.innerHTML = ""; // Limpiar resultados anteriores
+
+      for (const nombreLibro of nombresLibros) {
+        const nombre = document.createElement("p");
+        nombre.textContent = nombreLibro;
+        divLibrosOpenLibros.appendChild(nombre);
+      }
+    } else {
+      divLibrosOpenLibros.innerHTML = "<p>No se encontraron biblias en.</p>";
+    }
+  } catch (error) {
+    console.error("Error al obtener datos de OpenLibra:", error);
+    divLibrosOpenLibros.innerHTML = "<p>Error al cargar datos biblias.</p>";
+  }
+}
+
+crearLibrosOpenLibra();
+
+
