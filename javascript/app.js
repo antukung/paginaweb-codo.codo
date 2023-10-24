@@ -220,35 +220,36 @@ const databaselibrosJSON= [
     "imagen":"../img/Libro32.png",
     "enlace":"https://mega.nz/file/ppIFTCKC#54KQoEDQ52PMG6nl76ZZpUvbh1hVWbV1388kr5TXG9E"
   }
-  /*
+  
   ,
   { 
     "_id": 33,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"Crepusculo",
+    "imagen":"../img/Libro33.png",
+    "enlace":"https://mega.nz/file/N1ZllABD#Jm0IFYptmfW0LGs-jxi6VexYS7J0LvnNU9D37q2vLEI"
   }
   ,
   { 
     "_id": 34,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"Luna Nueva",
+    "imagen":"../img/Libro34.png",
+    "enlace":"https://mega.nz/file/Eo4AxQxL#bibOdmdgiuCwwDGKKKQD39H76Qmj0q1yB5Hk16KkSck"
   }
   ,
   { 
     "_id": 35,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"Eclipse",
+    "imagen":"../img/Libro35.png",
+    "enlace":"https://mega.nz/file/c9ZCSaTb#bV3WbYb_yVWNSAckvylB7gJ-pD9f5kOxiUKh-VeiG4M"
   }
   ,
   { 
     "_id": 36,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"Amanacer",
+    "imagen":"../img/Libro36.png",
+    "enlace":"https://mega.nz/file/Q4QWgBDb#VAuzo2PiUuIshcVWhpNO3PgwEYJD6oF2qoi2g5Hun-g"
   }
+  /*
   ,
   { 
     "_id": 37,

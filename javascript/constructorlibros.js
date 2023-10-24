@@ -49,7 +49,7 @@ async function crearLibrosOpenLibra() {
     const respuestaJSON = await respuesta.json();
 
     if (respuestaJSON.length > 0) {
-      const nombresLibros = respuestaJSON.map(libro => libro.title);
+      const nombresLibros = respuestaJSON.map(libro => libro.name);
       divLibrosOpenLibros.innerHTML = ""; // Limpiar resultados anteriores
 
       for (const nombreLibro of nombresLibros) {
