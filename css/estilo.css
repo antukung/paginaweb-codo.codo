@@ -236,7 +236,7 @@ article p {
 
 /* Reseña */
 
-.card img {
+.card_resenia img {
   position: absolute;
   background: transparent;
   width: 50px;
@@ -248,7 +248,7 @@ article p {
   cursor: pointer;
 }
 
-.container {
+.container_resenia {
   width: 100%;
   height: 100%;
   display: flex;
@@ -257,7 +257,7 @@ article p {
   flex-direction: column;
 }
 
-.card {
+.card_resenia {
   position: relative;
   width: 100%;
   height: 200px;
@@ -266,7 +266,7 @@ article p {
   margin-bottom: 4px;
 }
 
-.card h2 {
+.card_resenia h2 {
   z-index: 99;
   position: absolute;
   bottom: 0;
@@ -276,7 +276,7 @@ article p {
   margin-left: 50px;
 }
 
-.card p {
+.card_resenia p {
   z-index: 99;
   position: absolute;
   top: 20px;
@@ -290,7 +290,7 @@ article p {
   transition: all 0.2s ease;
 }
 
-.card i {
+.card_resenia i {
   font-size: 3rem;
 }
 
@@ -309,17 +309,17 @@ button {
   mix-blend-mode: hard-light;
 }
 
-.card:hover i {
+.card_resenia:hover i {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-.card:hover button {
+.card_resenia:hover button {
   transform: scale(16.5);
 }
 
-.card:hover .card p {
+.card_resenia:hover .card p {
   color: #fff;
 }
 
@@ -377,14 +377,13 @@ button {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .text-container h1 {
     font-size: 3rem;
   }
   .card-container {
     flex-direction: column;
-    width: 400px;
-    height: 400px;
+    width: 90%;
   }
 }
 
