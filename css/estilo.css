@@ -236,7 +236,7 @@ article p {
 
 /* Reseña */
 
-.card_resenia img {
+.card img {
   position: absolute;
   background: transparent;
   width: 50px;
@@ -248,7 +248,7 @@ article p {
   cursor: pointer;
 }
 
-.container_resenia {
+.container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -257,7 +257,7 @@ article p {
   flex-direction: column;
 }
 
-.card_resenia {
+.card {
   position: relative;
   width: 100%;
   height: 200px;
@@ -266,7 +266,7 @@ article p {
   margin-bottom: 4px;
 }
 
-.card_resenia h2 {
+.card h2 {
   z-index: 99;
   position: absolute;
   bottom: 0;
@@ -276,7 +276,7 @@ article p {
   margin-left: 50px;
 }
 
-.card_resenia p {
+.card p {
   z-index: 99;
   position: absolute;
   top: 20px;
@@ -290,7 +290,7 @@ article p {
   transition: all 0.2s ease;
 }
 
-.card_resenia i {
+.card i {
   font-size: 3rem;
 }
 
@@ -309,17 +309,17 @@ button {
   mix-blend-mode: hard-light;
 }
 
-.card_resenia:hover i {
+.card:hover i {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-.card_resenia:hover button {
+.card:hover button {
   transform: scale(16.5);
 }
 
-.card_resenia:hover .card p {
+.card:hover .card p {
   color: #fff;
 }
 
@@ -377,13 +377,14 @@ button {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   .text-container h1 {
     font-size: 3rem;
   }
   .card-container {
     flex-direction: column;
-    width: 90%;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -669,35 +670,7 @@ font-weight: 100;
   margin: 15px auto 20px;
 }
 
-#explicacion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 20em;
-  height: 10em;
-  background: linear-gradient(90deg, #75AADB 30%, #FFFFFF 30%, #FFFFFF 70%, #75AADB 70%);
-  position: relative;
-}
 
-/* Estilos para el texto */
-#click-descarga {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  color: #333;
-  text-transform: uppercase;
-  text-align: center;
-}
-
- 
-	
 
 
 

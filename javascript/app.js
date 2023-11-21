@@ -249,56 +249,57 @@ const databaselibrosJSON= [
     "imagen":"../img/Libro36.png",
     "enlace":"https://mega.nz/file/Q4QWgBDb#VAuzo2PiUuIshcVWhpNO3PgwEYJD6oF2qoi2g5Hun-g"
   }
-  /*
+  
   ,
   { 
     "_id": 37,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"El libro Retorcido",
+    "imagen":"../img/Libro37.png",
+    "enlace":"https://mega.nz/file/MkxTySTL#WMan4mClcv-6b51dwUl07qT5nhqQdxdVvEa4Sr267rI"
   }
   ,
   { 
     "_id": 38,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"Jorgumo el Infierno de Minori Kendo",
+    "imagen":"../img/Libro38.png",
+    "enlace":"https://mega.nz/file/Bo5QhazK#rOib-l_2qcuPTtipQ47Yo9qfpLVHTLagg1T0kQ1jt9A"
   }
   ,
   { 
     "_id": 39,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"Jorgumo Un Lugar Llamado Dreamsland",
+    "imagen":"../img/Libro39.png",
+    "enlace":"https://mega.nz/file/F4YTgQYR#72hZML46mgtk7jRiG3WEcTHY4KSnudUTMU8c1TuyY4o"
   }
   ,
   { 
     "_id": 40,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "nombre":"Jack, el Cazador",
+    "imagen":"../img/Libro40.png",
+    "enlace":"https://mega.nz/file/UxZXlJCa#O5hhelhoF8gFsUf7LeMlzQ8OoBy8qPe8UE638Yarg9E"
   }
   ,
   { 
-    "_id": 33,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "_id": 41,
+    "nombre":"El Joven y la Bruja",
+    "imagen":"../img/Libro41.png",
+    "enlace":"https://mega.nz/file/NxJVzSzZ#tETAPNvWrLRhSVv3z4XFlS-cBRKhySVJR86n1A7JPzI"
   }
   ,
   { 
-    "_id": 34,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "_id": 42,
+    "nombre":"La Cabra",
+    "imagen":"../img/Libro42.png",
+    "enlace":"https://mega.nz/file/JoQlzapS#e_i1P7CW9-Id_N-3j1cruJVXNtk5irD-MOkQPr_U9pk"
   }
   ,
   { 
-    "_id": 35,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "_id": 43,
+    "nombre":"El Cazador",
+    "imagen":"../img/Libro43.png",
+    "enlace":"https://mega.nz/file/4oZwUCIS#mAtvMS9XqfPeDpK5yIuhlCcF24tf4bocz8Y2PtIBfkg"
   }
+  /*
   ,
   { 
     "_id": 36,
