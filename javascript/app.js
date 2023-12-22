@@ -299,14 +299,15 @@ const databaselibrosJSON= [
     "imagen":"../img/Libro43.png",
     "enlace":"https://mega.nz/file/4oZwUCIS#mAtvMS9XqfPeDpK5yIuhlCcF24tf4bocz8Y2PtIBfkg"
   }
-  /*
+  
   ,
   { 
-    "_id": 36,
-    "nombre":"",
-    "imagen":"../img/Libro25.png",
-    "enlace":""
+    "_id": 44,
+    "nombre":"Cuaderno de Artes Marciales",
+    "imagen":"../img/Libro44.png",
+    "enlace":"https://mega.nz/file/koB0HCxa#dUfZSJPfQlCvA5nKOW6jrEkYr-2jhCrLzylLZX5bFd4"
   }
+  /*
   ,
   { 
     "_id": 37,
